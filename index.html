@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>colorchange</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <button type="button" id="btn" onclick="changeColor()">click me</button> 
+    </body>
+    <script>
+        function changeColor(){
+            var colors = ["black","blue","white","brown","#16161d"]
+            var mybody = document.querySelector("body");
+            var rand = colors[Math.floor(Math.random() * colors.length)];
+            mybody.style.backgroundColor = rand;
+        }
+    </script>
+</html>

@@ -1,0 +1,15 @@
+body{
+    background-color: #16161d;
+}
+
+button{
+    background-color: aqua;
+    border-radius: 2%;
+    margin: 0 auto;
+    padding: 0px;
+    height: 5%;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    border-radius: 12px;
+}
